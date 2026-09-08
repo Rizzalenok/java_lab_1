@@ -6,6 +6,6 @@ public class Z15 {
         System.out.println(main.is2Digits(851));
     }
     public boolean is2Digits (int x) {
-        return (100 > x) && (x > 9);
+        return ((100 > x) && (x > 9)) || ((x > -100) && (x <-9));
     }
 }
